@@ -6,17 +6,13 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-      ParametersandArguments  pa = new ParametersandArguments();
-      for (int i = 0; i < pa.numberOfBottles; i++)
-      {
-          pa.getMilk(3);
-          System.out.println("The total number is " + pa.getMilk(3));
+      ParametersandArguments  parametersandArguments = new ParametersandArguments();
 
-      }
+      parametersandArguments.getMilk(5, 15);
+      System.out.println("total cost is R" + parametersandArguments.getTotalCost());
+      System.out.println("change is R" + parametersandArguments.getChange(200.00));
 
-        GetMilkSimple getMilkSimple = new GetMilkSimple();
 
-//        System.out.println(getMilkSimple.getTotalPrice(20,  12));
 
 
     }
