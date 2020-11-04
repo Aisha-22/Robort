@@ -1,6 +1,6 @@
 package com.company;
 
-public class ParametersandArguments {
+public class OldGetMlik {
 
     int numberOfBottles = 15;
 
@@ -35,6 +35,4 @@ public class ParametersandArguments {
 
         //Loop dose is run a block of code over and over
         //Calling a Method in a loop
-
-    }
 }
