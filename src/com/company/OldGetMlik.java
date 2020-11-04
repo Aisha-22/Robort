@@ -16,7 +16,6 @@ public class OldGetMlik {
         System.out.println("moveRight");
 
 
-
         System.out.println("buy" + numberOfBottles + " bottles of Milk");
         System.out.println("moveLeft");
         System.out.println("moveLeft");
@@ -35,4 +34,5 @@ public class OldGetMlik {
 
         //Loop dose is run a block of code over and over
         //Calling a Method in a loop
+    }
 }
