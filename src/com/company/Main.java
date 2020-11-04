@@ -6,8 +6,14 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-      ParametersandArguments  pa = new ParametersandArguments();
+      ParametersandArguments  parametersandArguments = new ParametersandArguments();
 
-      pa.getMilk(3);
+      parametersandArguments.getMilk(5, 15);
+      System.out.println("total cost is R" + parametersandArguments.getTotalCost());
+      System.out.println("change is R" + parametersandArguments.getChange(200.00));
+
+
+
+
     }
 }
